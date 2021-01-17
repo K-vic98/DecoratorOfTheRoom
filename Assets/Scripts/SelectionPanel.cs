@@ -5,7 +5,7 @@ using UnityEngine;
 public class SelectionPanel : MonoBehaviour
 {
     [SerializeField] private ItemData[] _itemDatas;
-    [SerializeField] private Transform _objectPlayer;
+    [SerializeField] private ObjectPlacer _objectPlayer;
     [SerializeField] private GameObject _itemTemplate;
     [SerializeField] private Transform _container;
 
@@ -25,7 +25,7 @@ public class SelectionPanel : MonoBehaviour
 
     private void OnItemSelected(ItemData itemData)
     {
-
+        _objectPlayer.SetInstalledObject(itemData);
     }
 
     private void OnItemDisabled(ItemView itemView)

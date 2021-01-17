@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 896d683371d8a0e4887887102a467583, type: 3}
+  m_Name: Mixer
+  m_EditorClassIdentifier: 
+  _preview: {fileID: 21300000, guid: d4d25eaf84f3c734dbff69169fe6c969, type: 3}
+  _label: Mixer
+  _prefab: {fileID: 4845944042642067062, guid: 51375fb1aaf7a3a47be8f808c0a789f1, type: 3}

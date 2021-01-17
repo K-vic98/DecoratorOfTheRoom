@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 896d683371d8a0e4887887102a467583, type: 3}
+  m_Name: AirFryer
+  m_EditorClassIdentifier: 
+  _preview: {fileID: 21300000, guid: ac567dbba24864742b2be56e28976a9b, type: 3}
+  _label: AirFryer
+  _prefab: {fileID: 3968983442603002093, guid: faf6c871a8458c24aa1a02ea4cf4d8b3, type: 3}
